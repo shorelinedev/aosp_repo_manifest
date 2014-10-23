@@ -430,7 +430,7 @@
 
 #ShoreDroid Build Blobs
   <project name="shorelinedev/aosp_build" path="build" remote="github" revision="master" />
-  <project name="shorelinedev/Team-Win-Recovery-Project" path="bootable/recovery" remote="github" revision="twrp2.7"
+  <project name="shorelinedev/Team-Win-Recovery-Project" path="bootable/recovery" remote="github" revision="twrp2.7" />
   <project name="shorelinedev/aosp_frameworks_base" path="frameworks/base" remote="github" revision="master" />
   <project name="shorelinedev/aosp_frameworks_av" path="frameworks/av" remote="github" revision="master" />
   <project name="shorelinedev/platform_external_busybox" path="external/busybox" remote="github" revision="kk-4.4" />
