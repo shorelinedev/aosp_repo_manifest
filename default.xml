@@ -17,7 +17,6 @@
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
@@ -431,6 +430,7 @@
 
 #ShoreDroid Build Blobs
   <project name="shorelinedev/aosp_build" path="build" remote="github" revision="master" />
+  <project name="shorelinedev/Team-Win-Recovery-Project" path="bootable/recovery" remote="github" revision="twrp2.7"
   <project name="shorelinedev/aosp_frameworks_base" path="frameworks/base" remote="github" revision="master" />
   <project name="shorelinedev/aosp_frameworks_av" path="frameworks/av" remote="github" revision="master" />
   <project name="shorelinedev/platform_external_busybox" path="external/busybox" remote="github" revision="kk-4.4" />
@@ -440,7 +440,7 @@
   <project name="shorelinedev/aosp_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="master" />
   <project name="shorelinedev/aosp_kernel_hammerhead" path="kernel/hammerhead" remote="github" revision="master" />
   <project name="shorelinedev/android_packages_apps_PACPerformance" path="packages/apps" remote="github" revision="pac-4.4" />
-  <project name="shorelinedev/aosp_device_lge_geeb" path="device/lge/geeb" remote="github" revision="master" />
+  <project name="shorelinedev/aosp_device_lge_geeb" path="device/lge/geeb" remote="github" revision="development" />
   <project name="shorelinedev/aosp_kernel_geeb" path="kernel/geeb" remote="github" revision="master" />
 
 </manifest>
