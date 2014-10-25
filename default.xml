@@ -440,7 +440,7 @@
   <project name="shorelinedev/aosp_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="master" />
   <project name="shorelinedev/aosp_kernel_hammerhead" path="kernel/hammerhead" remote="github" revision="master" />
   <project name="shorelinedev/android_packages_apps_PACPerformance" path="packages/apps" remote="github" revision="pac-4.4" />
-  <project name="shorelinedev/aosp_device_lge_geeb" path="device/lge/geeb" remote="github" revision="development" />
+  <project name="shorelinedev/aosp_device_lge_geeb" path="device/lge/geeb" remote="github" revision="master" />
   <project name="shorelinedev/aosp_kernel_geeb" path="kernel/geeb" remote="github" revision="master" />
 
 </manifest>
